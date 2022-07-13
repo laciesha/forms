@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- full name -->
+    <div class="row">
+      <label class="desc" for="full_name">Full Name</label>
+
+      <input
+        id="full_name"
+        name="full_name"
+        type="text"
+        class="field text fn"
+        value=""
+        size="50"
+        tabindex="1"
+      />
+    </div>
+    <!-- email -->
+    <div class="row">
+      <label class="desc" for="my_email"> Email </label>
+
+      <input
+        id="my_email"
+        name="my_email"
+        type="email"
+        spellcheck="false"
+        placeholder="mickymouse@gmail.com"
+        maxlength="255"
+        tabindex="2"
+      />
+    </div>
+    <!-- date -->
+
+    <div class="row">
+      <label class="desc" for="title3"> Date </label>
+
+      <input
+        id="Field3"
+        name="Field3"
+        type="date"
+        spellcheck="false"
+        placeholder="08/01/198X"
+        maxlength="35"
+        tabindex="3"
+      />
+    </div>
+<!-- message -->
+    <div class="row">
+      <label class="desc" id="title4" for="Field4"> Message </label>
+
+      
+        <textarea
+          id="Field4"
+          name="Field4"
+          spellcheck="true"
+          rows="10"
+          cols="50"
+          tabindex="4"
+        ></textarea>
+      
+    </div>
+<!-- select box -->
+<div class="row">
+    <label for="cars">Choose a car:</label>
+
+<select name="cars" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+</div>
+<!-- check box -->
+<div class="row">
+  <label for="video">Video Type:</label>
+
+  <select name="video type" id="video type">
+    <option value="brand awareness">Brand Awareness</option>
+    <option value="promotional">Promotional</option>
+    <option value="entertainment ">Entertainment</option>
+    <option value="documentary">Documentary</option>
+  </select>
+</div>
+<!-- Dropdown Menu -->
+<div>
+  <label for="car">Choose a car</label>
+  <select name="cars" id="cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="mercedes">Mercedes</option>
+<option value="audi">Audi</option>
+  </select>
+</div>
+<div>
+<button class="dropdown">Dropdown</button>
+<div class="dropdown-content">
+<a href="#">checkBox 1</a>
+<a href="#">checkBox 2</a>
+<a href="#">checkBox 3</a>
+</div>
+
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
